@@ -1,0 +1,21 @@
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {
+  line-height: 22px;
+}
+
+@media (max-width: 480px) {
+  .navbar .brand {
+    padding: 14px 70px 16px;
+  }
+  .row-fluid .span8 {
+    width: 95.95744680851064%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .navbar .brand {
+    padding: 14px 35px 16px;
+  }
+  .row-fluid .span8 {
+    width: 95.95744680851064%;
+  }
+}

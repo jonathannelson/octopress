@@ -1,0 +1,113 @@
+  {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+  {% include head.html %}
+  <body>
+    <nav role="navigation">
+      <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+            <a class="brand" href="/"><img src="/images/logo.png"></a>
+            <!--<div class="navbar-content hidden-phone hidden-tablet">
+              <ul class="nav pull-right">
+                <li class="active">
+                  <a href="#">Home</a> 
+                </li>
+                <li>
+                  <a href="#">About</a> 
+                </li>
+                <li>
+                  <a href="#">Contact</a> 
+                </li>
+              </ul>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span4 hidden-phone hidden-tablet">
+          <div class="well">
+            <form class="form-horizontal" action="http://adproof.us5.list-manage.com/subscribe/post?u=7d04fd07eefaee953bdb8447d&amp;id=adbb978316" method="post" id="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <fieldset>
+                <div id="legend">
+                  <legend class="">Get Free Email Updates</legend>
+                </div>
+                <div class="control-group">
+                  <!-- Text input-->
+                  <div class="controls">
+                    <input type="text" placeholder="First Name" class="input-large" name="NAME" class="required name" id="mce-NAME">
+                    <!-- <p class="help-block">Supporting help text</p> -->
+                  </div>
+                </div>
+                <div class="control-group">
+                  <!-- Text input-->
+                  <div class="controls">
+                    <input type="text" placeholder="Email" class="input-large" name="EMAIL" class="required email" id="mce-EMAIL">
+                    <!-- <p class="help-block">Supporting help text</p> -->
+                  </div>
+                </div>
+                <div class="control-group">
+                  <!-- Button -->
+                  <div class="controls">
+                    <button class="btn btn-success" type="submit" name="subscribe" id="mc-embedded-subscribe">Join for free</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="well">
+            {% if site.blog_index_asides.size %}
+              {% include_array blog_index_asides %}
+            {% else %}
+              {% include_array default_asides %}
+            {% endif %}
+          </div>
+          
+          <div class="well affix-top" data-spy="affix" data-offset-top="450">
+            <h4>Sign Up for AdProof</h4>
+            <p>
+              Create high performing ads for Google AdWords, Bing Ads and Facebook Ads.
+            </p>
+            <p>
+              <button class="btn-primary btn-large" type="button">Start testing with AdProof</button>
+            </p>
+          </div>
+        </div>
+        <div class="span8">
+          <ul class="breadcrumb hidden-phone hidden-tablet">
+            {% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
+            {% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
+            {% assign previous="" %}
+             {% if num_parts == "0" or num_parts == "-1" %}
+              <li><a href="/" class="active">Home</a></li>
+             {% else %}
+              <li><a href="/">Home</a></li>
+              <span class="divider">/</span>
+              <li class="active">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</li>
+             {% endif %}
+            </ul>
+          </ul>
+          {% if index %}
+            <div class="row-fluid">
+              <div class="span12">
+                <header class="page-header" style="margin: 20px 0 20px;">
+                  <div class="pull-right">
+                    <input type="text" class="search-query pull-right" placeholder="Search...">
+                  </div>
+                  <h1>Articles</h1>
+                  <em>About online marketing, SEO, and Design</em>
+                </header>
+              </div>
+            </div>
+          {% endif %}
+          <div class="row-fluid">
+            {{ content | expand_urls: root_url }}
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <footer role="contentinfo">{% include footer.html %}</footer>
+      </div>
+    </div>
+  </body>
+</html>
