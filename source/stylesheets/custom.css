@@ -22,12 +22,15 @@ img {
   text-align: center;
 }
 
-.navbar-inverse .brand, .navbar-inverse .nav>li>a {
-  line-height: 22px;
+.navbar .brand {
+  max-height: 40px;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.navbar-fixed-top + * {
-  margin-top: 70px;
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {
+  line-height: 70px;
 }
 
 .nav > li > a:hover {
