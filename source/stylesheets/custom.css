@@ -30,6 +30,10 @@ img {
   margin-top: 70px;
 }
 
+.nav > li > a:hover {
+  background-color: #d4d4d4;
+}
+
 .form-horizontal .controls {
   margin-left: 0px;
 }
