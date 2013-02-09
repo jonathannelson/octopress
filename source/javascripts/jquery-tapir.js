@@ -58,5 +58,3 @@
   };
 
 })( jQuery );
-Window size: x 
-Viewport size: x
