@@ -68,11 +68,11 @@ I stumbled on a few other sites to submit your startup, but they're all stuck in
 
 ## Don't Miss Next Post
 
-Stay tuned. You won't want to miss the next blog post. I'm going to show you what worked and what didn't when I applied advertising tactics to get beta users. I'll show you what worked and what failed miserably. I'll show you how I sent over [250 users from Facebook Ads in less than 5 minutes](http://adproof.com "Facebook Ads tactic that yielded 250 users in less than 5 minutes") for $10. Yes, I used [AdProof](http://adproof.com "AdProof: A/B Testing for Google Adwords, Bing Ads and Facebook Ads"). Which reminds me… are you [signed up for our private beta](http://adproof.com "Sign up for AdProof private beta"), yet? If not, then do it now. I'm closing the private beta once we reach our first 1,000.
+Stay tuned. You won't want to miss the next blog post. I'm going to show you what worked and what didn't when I applied advertising tactics to get beta users. I'll show you what worked and what failed miserably. I'll show you how I sent over [250 users from Facebook Ads in less than 5 minutes](http://adproof.com "Facebook Ads tactic that yielded 250 users in less than 5 minutes") for $10. Yes, I used [AdProof](http://adproof.com "AdProof: A/B Testing for Google Adwords, Bing Ads and Facebook Ads"). Which reminds me… are you [signed up for our private beta](http://adproof.com "Sign up for AdProof private beta"), yet? We're closing the private beta once we reach 1,000.
 
 ## Sharing is Caring Blah, Blah, Blah
 
-If you enjoyed this post then share it or else… just kidding. No, seriously, share the damn post. Mmm k? Thanks ;-)
+If you enjoyed this post then share it or else… just kidding. No, seriously, please share the post. Thanks ;-)
 
 ## Need Help?
 

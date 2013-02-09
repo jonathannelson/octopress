@@ -34,4 +34,4 @@ At last before ever going out to make an ad copy or to even think about advertis
 
 ## Have You Signed Up for AdProof Yet?
 
-AdProof is the first test-driven advertising platform that lets ad buyers test before they spend. Ad buyers can now A/B test any ad group for just a $1. AdProof is super fast. No more wasted hours waiting for data or approval of ads. You’ll get results back in minutes. AdProof supports all ad types. Test your PPC ads, display ads, and social media ad campaigns. AdProof supports all devices. Optimize your ads for desktops & laptops, mobile devices and tablets. [Sign up for the free beta now][3].
+AdProof is the first test-driven advertising platform that lets ad buyers test before they spend. Ad buyers can now A/B test any ad group for just a $1. AdProof is super fast. No more wasted hours waiting for data or approval of ads. You’ll get results back in minutes. AdProof supports all ad types. Test your PPC ads, display ads, and social media ad campaigns. AdProof supports all devices. Optimize your ads for desktops & laptops, mobile devices and tablets.
