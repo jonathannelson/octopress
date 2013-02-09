@@ -88,6 +88,7 @@
              {% endif %}
             </ul>
           </ul>
+
           {% if index %}
             <div class="row-fluid">
               <div class="span12">
@@ -100,7 +101,9 @@
                 </header>
               </div>
             </div>
+          {% else %}
           {% endif %}
+
           <div class="row-fluid">
             {{ content | expand_urls: root_url }}
           </div>
