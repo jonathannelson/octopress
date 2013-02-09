@@ -17,7 +17,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.adproof.com">
+  <link rel="canonical" href="http://blog.adproof.com/search.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -195,136 +195,21 @@
           </div>
 
           <div class="row-fluid">
-            <div class="span12">
-  
-  
-  
-    <article>
-      
-  
-    <h2 class="entry-title"><a href="/copywriting/write-better-headlines/">Write Better Headlines</a></h2>
-  
-  
-    <p class="meta">
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-08T02:31:00-05:00" pubdate data-updated="true">Feb 8<span>th</span>, 2013</time>
-      
-    </p>
-  
-
-
-  <div class="entry-content"><p>Writing effective headlines are a great way to make your article stand out. Remember that a headline is just one word or phrase that summarizes an article or the key point of your content. It is meant to clarify to the audience, what you are going to talk about. It is an effective communication tool to grab the readers&#8217; attentions. Once the reader has been reeled in, it is your article’s job to keep the readers engaged.</p>
-
-</div>
-  
-  <div style="border-bottom: 1px solid #EEE; margin: 15px 0; padding: 15px 0 30px;">
-  
-    <footer>
-      <a rel="full-article" href="/copywriting/write-better-headlines/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  
-    <h2 class="entry-title"><a href="/startups/get-237-beta-testers-for-your-awesome-startup-now/">Get 237 Beta Testers for Your Awesome Startup Now</a></h2>
-  
-  
-    <p class="meta">
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-08T02:09:00-05:00" pubdate data-updated="true">Feb 8<span>th</span>, 2013</time>
-      
-    </p>
-  
-
-
-  <div class="entry-content"><p>Last week I entered search mode to find resources to spotlight <a href="http://adproof.com" title="AdProof: A/B Testing for Google Adwords, Bing Ads and Facebook Ads">AdProof</a> and get beta testers. The results were <a href="http://www.udemy.com/blog/beta-testers/">good</a>, <a href="http://www.betabait.com">bad</a> and <a href="http://www.betausersnow.com">ugly</a>.</p>
-
-</div>
-  
-  <div style="border-bottom: 1px solid #EEE; margin: 15px 0; padding: 15px 0 30px;">
-  
-    <footer>
-      <a rel="full-article" href="/startups/get-237-beta-testers-for-your-awesome-startup-now/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  
-    <h2 class="entry-title"><a href="/advertising/ad-copy-demystified/">Ad Copy Demystified</a></h2>
-  
-  
-    <p class="meta">
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-08T01:02:00-05:00" pubdate data-updated="true">Feb 8<span>th</span>, 2013</time>
-      
-    </p>
-  
-
-
-  <div class="entry-content"><p>What’s an advertisement? An advertisement is any notice or announcement to promote an idea, product, service or an event. It could be announced through the television, radio, or the internet. There are endless possibilities when it comes to how you want to advertise your item or idea. Some people go through vigorous pains and have huge events to officially announce their items while others do it more quietly on television or internet. Not only do advertisements help customers getting familiarized with the product but also help the company that is promoting it. Something more efficient than an advertisement is an advertising copy; or Ad copy for short. But what is an advertising copy?</p>
-
-</div>
-  
-  <div style="border-bottom: 1px solid #EEE; margin: 15px 0; padding: 15px 0 30px;">
-  
-    <footer>
-      <a rel="full-article" href="/advertising/ad-copy-demystified/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  <ul class="pager">
-    
-    <li><a href="/archives">Blog Archives</a></li>
-    
-  </ul>
+            <h1 class="entry-title"><center>Search Results</center></h1>
+<div id="search_loading" style="margin: 40px 0">
+    <center><img src="/images/loading.gif"></center>
 </div>
 
+<script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+<div id="search_results" style="display:none">
+<br>
+</div>
+<script>
+         $('#search_results').tapir({
+             'token': '51159e203f61b00e340000c4',
+             'complete' : function() { document.getElementById('search_loading').style.display="none"; }
+         });
+</script>
           </div>
         </div>
         <div class="clearfix"></div>

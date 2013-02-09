@@ -92,9 +92,13 @@
           <div class="row-fluid">
             <div class="span12">
               <header class="page-header" style="margin: 20px 0 20px;">
+                {% if site.simple_search %}
                 <div class="pull-right">
-                  <input type="text" class="search-query pull-right" placeholder="Search...">
+                  <form method="get" action="{{ root_url }}/search.html" id="search">
+                    <input name="query" placeholder="Search..." class="search-query pull-right" type="text" placeholder="Search..." x-webkit-speech />
+                  </form>
                 </div>
+                {% endif %} 
                 <h1>Articles</h1>
                 <em>About online marketing, SEO, and Design</em>
               </header>
