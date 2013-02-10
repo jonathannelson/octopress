@@ -70,35 +70,9 @@
           </div>
         </div>
         <div class="span8">
-          <ul class="breadcrumb hidden-phone hidden-tablet">
-            {% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
-            {% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
-            {% assign previous="" %}
-             {% if num_parts == "0" or num_parts == "-1" %}
-              <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" class="active" itemprop="url"><span itemprop="title">Home</span></a></li>
-             {% else %}
-              <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url"><span itemprop="title">Home</span></a></li>
-              <span class="divider">/</span>
-              <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active" itemprop="url"><span itemprop="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</span></li>
-             {% endif %}
-            </ul>
-          </ul>
-
-          <div class="row-fluid">
-            <div class="span12">
-              <header class="page-header" style="margin: 20px 0 20px;">
-                {% if site.simple_search %}
-                <div class="pull-right hidden-phone">
-                  <form method="get" action="{{ root_url }}/search.html" id="search">
-                    <input name="query" placeholder="Search..." class="search-query pull-right" type="text" placeholder="Search..." x-webkit-speech />
-                  </form>
-                </div>
-                {% endif %} 
-                <h1>Articles</h1>
-                <em>About online advertising, marketing, startups and more</em>
-              </header>
-            </div>
-          </div>
+          {% include custom/breadcrumbs.html %}
+          
+          {% include custom/search.html %}
 
           <div class="row-fluid">
             {{ content | expand_urls: root_url }}

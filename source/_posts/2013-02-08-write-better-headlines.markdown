@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Write Better Headlines"
+description: "Learn and apply the following rules when writing headlines and you'll become an expert in no time."
 date: 2013-02-08 02:31
 comments: true
 categories: copywriting

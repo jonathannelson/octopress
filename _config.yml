@@ -60,6 +60,9 @@ blog_index_asides: [asides/recent_posts.html]
 #   3rd Party Settings    #
 # ----------------------- #
 
+# Rich Objects
+cover: https://s3.amazonaws.com/adproof/blog/placeholder.png
+
 # Github repositories
 github_user:
 github_repo_count: 0
