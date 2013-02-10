@@ -75,11 +75,11 @@
             {% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
             {% assign previous="" %}
              {% if num_parts == "0" or num_parts == "-1" %}
-              <li><a href="/" class="active">Home</a></li>
+              <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" class="active" itemprop="url"><span itemprop="title">Home</span></a></li>
              {% else %}
-              <li><a href="/">Home</a></li>
+              <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url"><span itemprop="title">Home</span></a></li>
               <span class="divider">/</span>
-              <li class="active">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</li>
+              <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active" itemprop="url"><span itemprop="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</span></li>
              {% endif %}
             </ul>
           </ul>
