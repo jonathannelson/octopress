@@ -1,0 +1,34 @@
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@AdProof">
+<meta name="twitter:creator" content="@AdProof">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+<meta property='og:locale' content='en_US'/>
+<meta property='fb:admins' content='584925601'/>
+<meta property='og:site_name' content='The @AdProof Marketing Blog'/>
+{% if root %}
+  <meta property="og:url" content="{{ root_url }}/">
+  <meta property="og:type" content="website" />
+{% else %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property='og:type' content='article'/>
+{% endif %}
+{% if page.title %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  {% if page.cover %}
+    <meta property="og:image" content="{{ page.cover }}">
+  {% endif %}
+{% else %}
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  {% if site.cover %}
+    <meta property="og:image" content="{{ site.cover }}">
+  {% endif %}
+{% endif %}
