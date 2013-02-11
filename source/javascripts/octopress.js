@@ -1,3 +1,9 @@
+$(function(){
+  var sideBarNavWidth=$('#sidebar').width() - parseInt($('#sidebar-affix').css('paddingLeft')) - parseInt($('#sidebar-affix').css('paddingRight'));
+  $('#sidebar-affix').css('width', sideBarNavWidth);
+});
+
+
 function testFeatures() {
   var features = ['maskImage'];
   $(features).map(function(index, feature) {
