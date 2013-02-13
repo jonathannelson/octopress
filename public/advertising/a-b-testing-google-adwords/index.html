@@ -1,0 +1,531 @@
+  
+  <!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>A/B Testing Google AdWords - The @AdProof Marketing Blog</title>
+  <meta name="author" content="AdProof">
+
+  
+  <meta name="description" content="Learn how A/B testing can increase conversion and lower your Google AdWords cost. Discover an easy-to-remember method for A/B tests, split testing &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.adproof.com/advertising/a-b-testing-google-adwords">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/cerulean.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/custom.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/syntax/syntax.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="/javascripts/libs/modernizr-2.0.js"></script>
+  <script src="https://app.divshot.com/js/bootstrap.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+  <link href="/atom.xml" rel="alternate" title="The @AdProof Marketing Blog" type="application/atom+xml">
+  
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-35018553-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@AdProof">
+<meta name="twitter:creator" content="@AdProof">
+
+  <meta name="twitter:title" content="A/B Testing Google AdWords">
+  <meta name="twitter:description" content="Learn how A/B testing can increase conversion and lower your Google AdWords cost. Discover an easy-to-remember  method for A/B tests, split testing and multivariate tests.">
+
+
+<meta property='og:locale' content='en_US'/>
+<meta property='fb:admins' content='584925601'/>
+<meta property='og:site_name' content='The @AdProof Marketing Blog'/>
+
+  <meta property="og:url" content="http://blog.adproof.com/advertising/a-b-testing-google-adwords/">
+  <meta property='og:type' content='article'/>
+
+
+  <meta property="og:title" content="A/B Testing Google AdWords">
+  <meta property="og:description" content="Learn how A/B testing can increase conversion and lower your Google AdWords cost. Discover an easy-to-remember  method for A/B tests, split testing and multivariate tests.">
+  
+    <meta property="og:image" content="https://s3.amazonaws.com/adproof/blog/a-b-testing.png">
+  
+
+</head>
+  <body>
+    <nav role="navigation" style="padding-bottom: 90px;">
+      <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class="navbar-inner">
+          <div class="container-fluid" style="padding-bottom: 10px;">
+            <a class="brand" href="http://adproof.com/?utm_source=blog-logo"><img src="/images/logo.png"></a>
+            <div class="navbar-content hidden-phone hidden-tablet">
+              <ul class="nav pull-right">
+                <div class="btn-group">
+                  <button class="btn btn-success" style="text-transform: uppercase; border-bottom-left-radius: 5px; border-top-left-radius: 5px; display: inline-block; padding: 10px 15px;"><a href="http://adproof.com/?utm_source=blog-header-cta" style="color: #fff; text-decoration: none;">Sign up for AdProof Beta</a></button>
+                  <button class="btn btn-inverse" style="text-transform: uppercase; border-bottom-right-radius: 5px; border-top-right-radius: 5px; display: inline-block; padding: 10px 15px;"><a href="http://adproof.com/?utm_source=blog-header-cta" style="color: #fff; text-decoration: none;">Go to AdProof <i class="icon-arrow-right icon-white"></i></a></button>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div id="sidebar" class="span4 hidden-phone hidden-tablet">
+          <div class="well">
+            <form class="form-horizontal" action="http://adproof.us5.list-manage.com/subscribe/post?u=7d04fd07eefaee953bdb8447d&amp;id=adbb978316" method="post" id="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <fieldset>
+                <div id="legend">
+                  <legend class="">Get Free Email Updates</legend>
+                </div>
+                <div class="control-group">
+                  <!-- Text input-->
+                  <div class="controls">
+                    <input type="text" placeholder="First Name" class="input-large" name="NAME" class="required name" id="mce-NAME">
+                    <!-- <p class="help-block">Supporting help text</p> -->
+                  </div>
+                </div>
+                <div class="control-group">
+                  <!-- Text input-->
+                  <div class="controls">
+                    <input type="text" placeholder="Email" class="input-large" name="EMAIL" class="required email" id="mce-EMAIL">
+                    <!-- <p class="help-block">Supporting help text</p> -->
+                  </div>
+                </div>
+                <div class="control-group">
+                  <!-- Button -->
+                  <div class="controls">
+                    <button class="btn btn-success" type="submit" name="subscribe" id="mc-embedded-subscribe">Join for free</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="well">
+            
+              <ul id="recent_posts" class="nav nav-list" style="padding-left: 0px; padding-right: 0px;">
+  <li class="nav-header">Recent Posts</li>
+  
+    <li class="post">
+      <a href="/advertising/a-b-testing-google-adwords/">A/B Testing Google AdWords</a>
+    </li>
+  
+    <li class="post">
+      <a href="/conversion/write-better-calls-to-action/">Write Better Calls to Action</a>
+    </li>
+  
+    <li class="post">
+      <a href="/copywriting/write-better-headlines/">Write Better Headlines</a>
+    </li>
+  
+    <li class="post">
+      <a href="/startups/get-237-beta-testers-for-your-awesome-startup-now/">Get 237 Beta Testers For Your Awesome Startup Now</a>
+    </li>
+  
+    <li class="post">
+      <a href="/advertising/ad-copy-demystified/">Ad Copy Demystified</a>
+    </li>
+  
+</ul>
+            
+          </div>
+          <div class="well">
+            <h4>Title Generator</h4>
+            <p>Generate powerful title ideas in just one click.
+            </p>
+            <p>
+              <a href=""><button class="btn btn-success" type="button">Try it now</button></a>
+          </div>
+            
+          <div id="sidebar-affix" class="well affix-top" data-spy="affix" data-offset-top="650">
+            <h4>Sign Up for AdProof</h4>
+            <p>
+              Create high performing ads for Google AdWords, Bing Ads and Facebook Ads.
+            </p>
+            <p>
+              <a href="http://adproof.com/?utm_source=blog-sidebar-cta"><button class="btn-inverse btn-large" type="button">Start testing with AdProof</button></a>
+            </p>
+          </div>
+        </div>
+        <div class="span8">
+          <ul class="breadcrumb hidden-phone hidden-tablet">
+  
+  
+  
+   
+    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url"><span itemprop="title">Home</span></a></li>
+    <span class="divider">/</span>
+    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active" itemprop="url"><span itemprop="title">A/B Testing Google AdWords</span></li>
+   
+  </ul>
+</ul>
+          
+          <div class="row-fluid">
+  <div class="span12">
+    <header class="page-header" style="margin: 20px 0 20px;">
+      
+      <div class="pull-right hidden-phone">
+        <form method="get" action="/search.html" id="search">
+          <input name="query" placeholder="Search..." class="search-query pull-right" type="text" placeholder="Search..." x-webkit-speech />
+        </form>
+      </div>
+       
+      <h1>Articles</h1>
+      <em>About online advertising, marketing, startups and more</em>
+    </header>
+  </div>
+</div>
+
+          <div class="row-fluid">
+            <article class="hentry span12" role="article">
+  
+  
+    <h1 class="entry-title">A/B Testing Google AdWords</h1>
+  
+  
+    <p class="meta">
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-12T21:00:00-05:00" pubdate data-updated="true">Feb 12<span>th</span>, 2013</time>
+      
+       | <a href="#disqus_thread">Comments</a>
+      
+    </p>
+  
+
+
+<div class="entry-content"><p>Many online marketing campaigns regard pay-per-click (PPC) advertising as a vital component in its strategy. Apart from being amongst the most significant factors, it can also be the most expensive, which is why it&#8217;s vital to keep track of all the investments.</p>
+
+<!--more-->
+
+
+<p>The first step towards leading an effective PPC campaign is to decide what to write in an advertisement. In order for the advertisement to work in our interest, there are four key factors we need to concentrate on. These consist of:</p>
+
+<h2>The Headline</h2>
+
+<p>The headline is the first line of the advertisement, and it must be strong enough to grasp the readers’ attention quickly. In this case, shorter is better. The headline is there to shine light upon what is being offered. An ideal length would be 4-5 words, but the aim here is to keep your message as short and to-the-point as possible. The headline will be in a different color than the rest of the text, usually blue. The headline may also consist of keywords that will show up in bold in a Google search.</p>
+
+<h2>The Body Text</h2>
+
+<p>The body text will consist of 1-2 lines, and should be similar to a page’s meta-tag description. Searchers will be looking for something that will give them a little more idea of what you have to offer, and your body text must be strong enough to convey the message.</p>
+
+<h2>Keywords</h2>
+
+<p>Take some time to think of what terms a consumer might search on to find your product or company. At this point, testing on what keywords work best and coming up with keyword-advertisement combinations will help you succeed.</p>
+
+<h2>The Landing Page</h2>
+
+<p>The landing page also pays an important part in PPC advertisements. The URL, in order to be effective, should take the consumer to the company’s product page, unless the company’s homepage acts second to a product page.</p>
+
+<p><strong>Tip:</strong> Consider camel casing each word and using your target keyword in the display URL to increase click through rate. Example: www.AcmeWidgetCompany.com/Blue-Widgets</p>
+
+<p>In this example, we&#8217;ll use Google AdWords to demonstrate proper PPC A/B testing or split testing. In order for the campaign to work to its maximum potential, the user must show variations by split-testing advertisements. Most users will not have access to complex tools, but low-tech variations can be run from something as simple as an Excel spreadsheet.</p>
+
+<p><strong>Tip:</strong> At the initial stage, dynamic insertion should be ignored and ad optimization should be turned off, since we want all advertisements to be shown with equal probability.</p>
+
+<p>Assuming that only the advertisement and not the landing page is being tested; you can come up with a table that looks something like this:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th> Ad # </th>
+<th> Title </th>
+<th> Description 1 </th>
+<th> Description 2 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>    1 </td>
+<td>     1 </td>
+<td>             1 </td>
+<td>             1 |</td>
+</tr>
+<tr>
+<td></td>
+<td>    2 </td>
+<td>     1 </td>
+<td>             1 </td>
+<td>             2 |</td>
+</tr>
+<tr>
+<td></td>
+<td>    3 </td>
+<td>     1 </td>
+<td>             2 </td>
+<td>             1 |</td>
+</tr>
+<tr>
+<td></td>
+<td>    4 </td>
+<td>     1 </td>
+<td>             2 </td>
+<td>             2 |</td>
+</tr>
+<tr>
+<td></td>
+<td>    5 </td>
+<td>     2 </td>
+<td>             1 </td>
+<td>             1 |</td>
+</tr>
+<tr>
+<td></td>
+<td>    6 </td>
+<td>     2 </td>
+<td>             1 </td>
+<td>             2 |</td>
+</tr>
+<tr>
+<td></td>
+<td>    7 </td>
+<td>     2 </td>
+<td>             2 </td>
+<td>             1 |</td>
+</tr>
+<tr>
+<td></td>
+<td>    8 </td>
+<td>     2 </td>
+<td>             2 </td>
+<td>             2 |</td>
+</tr>
+<tr>
+<td></td>
+<td>&#8212;&#8212;</td>
+<td>&#8212;&#8212;-</td>
+<td>&#8212;&#8212;&#8212;&#8212;&#8212;</td>
+<td>&#8212;&#8212;&#8212;&#8212;&#8212;|</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Following exponential numbers, we just created 8 advertisements with 2 variations on each line. As the number of variations increase, the numbers go up, and this is where the testing comes in. As far as the testing goes, there are some important factors we need to keep in mind. These consist of:</p>
+
+<ol>
+<li>All variations must be tested simultaneously to reduce time-based factors that may result in biased results.</li>
+<li>Test one thing at a time, so you can tell what’s affecting the success of your advertisements.</li>
+<li>Let the numbers decide what’s right, not your instincts.</li>
+<li>Test your advertisements long enough. For example, depending upon the type of product the company has to offer, the advertisement may get less than 100 impressions a day, or 10,000 impressions a week. In any case, you must have a few thousand impressions to reach an unbiased conclusion. Also, any special events like holidays coming up should be taken into account, since these usually result in a different type of traffic.</li>
+</ol>
+
+
+<p>Keep in mind that advertisements and landing pages will be directly related to each other, and different advertisement and landing page combinations can lead to different conversion rates.</p>
+
+<p>Results can also be customized to show you what you&#8217;re looking for. Custom reports can help you organize your reports by CTR, number and rate of transactions, and total profits. Reports like transaction rates also help you keep track of how many consumers are returning customers.</p>
+
+<p>A/B testing may seem like a lot of work, but it will prove beneficial in the long run, since it helps you get the most out of your advertising budget. Having access to advanced toolsets will definitely help, but low-scale split-testing may prove just as good.</p>
+
+<p>Have you signed up for AdProof, yet? AdProof lets you A/B test your ads in minutes. AdProof makes A/B testing PPC ads a walk in the park and costs less than a cup of coffee. <a href="http://adproof.com">Sign up and get your first ad test for free</a>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">AdProof</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-12T21:00:00-05:00" pubdate data-updated="true">Feb 12<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/./advertising/'>advertising</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="span12 hidden-phone hidden-tablet" style="text-align:center; margin-top: 25px; margin-bottom: 25px">
+  <ul class="ss-share">
+    <li class="ss-share-item">
+      <a class="ss-share-link ico-twitter" href="http://twitter.com/share?text=A/B Testing Google AdWords&amp;url=http://blog.adproof.com/advertising/a-b-testing-google-adwords/&amp;via=AdProof" rel="nofollow" target="_blank">Share on Twitter</a>
+    </li>
+    <li class="ss-share-item">
+      <a class="ss-share-link ico-facebook" href="http://www.facebook.com/sharer.php?u=http://blog.adproof.com/advertising/a-b-testing-google-adwords/&amp;t=A/B Testing Google AdWords" rel="nofollow" target="_blank">Share on Facebook</a>
+    </li>
+    <li class="ss-share-item">
+      <a class="ss-share-link ico-google" href="http://plus.google.com/share?url=http://blog.adproof.com/advertising/a-b-testing-google-adwords/" rel="nofollow" target="_blank">Share on Google+</a>
+    </li>
+  </ul>
+</div>
+    
+    
+    <section>
+      <h1>Comments</h1>
+      <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    </section>
+    
+    <ul class="pager">
+      
+      <li class="previous"><a class="basic-alignment left"
+        href="/conversion/write-better-calls-to-action/" title="Previous Post:
+        Write Better Calls to Action">&laquo; Write Better Calls to Action</a></li>
+      
+      <li><a href="/archives">Blog Archives</a></li>
+      
+    </ul>
+  </footer>
+</article>
+
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <footer id="footer" class="hidden-phone hidden-tablet">
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <footer role="contentinfo" class="footer"><div class="row-fluid main-features">
+  <div class="span4">
+    <header class="page-header">
+      <h3>Article Categories</h3>
+    </header>
+    <ul class="nav nav-pills nav-stacked">
+      <li>
+        <a href="/advertising/">Advertising</a> 
+      </li>
+      <li>
+        <a href="/startups/">Startups</a> 
+      </li>
+      <li>
+        <a href="/writing/">Writing</a> 
+      </li>
+    </ul>
+  </div>
+  <div class="span4">
+    <header class="page-header">
+      <h3>Email Updates</h3>
+    </header>
+    <p>Get fresh articles, infographics, marketing guides and more delivered to your inbox each week.</p>
+    <a class="btn btn-success" href="http://eepurl.com/uW76T"><span class="btn-label">Subscribe</span></a> 
+  </div>
+  <div class="span4">
+    <header class="page-header">
+      <h3>Sign Up for AdProof Beta</h3>
+    </header>
+    <p>AdProof is now accepting a limited number of users to join our private beta. Get 1 free ad test when you sign up now.</p>
+    <a class="btn btn-inverse" href="http://adproof.com/?utm_source=blog-footer-cta">Sign up for beta  <i class="icon-arrow-right icon-white"></i></a> 
+  </div>
+</div>
+
+</footer>
+          </div>
+        </div>
+      </div>
+      <div id="footer-nav">
+        <div class="container-fluid" style="background-color: #f5f5f5;">
+          <div class="row-fluid">
+            <div class="span12">
+              <p>
+                &copy; 2013 Made in Atlanta, Engineered by AdProof
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+
+<script type="text/javascript">
+      var disqus_shortname = 'AdProof';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.adproof.com/advertising/a-b-testing-google-adwords/';
+        var disqus_url = 'http://blog.adproof.com/advertising/a-b-testing-google-adwords/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+  </body>
+</html>
