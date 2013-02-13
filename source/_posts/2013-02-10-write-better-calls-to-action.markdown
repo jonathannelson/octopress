@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Write Better Calls to Action"
-description: Learn and apply the following rules when writing call to actions and you'll become an expert in no time.
-cover: https://s3.amazonaws.com/adproof/blog/Write-Better-Calls-to-Action.png
+description: Learn how writing better Calls to Action (CTA) can increase conversion. Discover what drives users to click and continue down a conversion funnel.
+cover: https://s3.amazonaws.com/adproof/blog/conversion.png
 date: 2013-02-10 21:28
 comments: true
 categories: conversion
