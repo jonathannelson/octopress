@@ -38,17 +38,64 @@ In this example, we'll use Google AdWords to demonstrate proper PPC A/B testing 
 
 Assuming that only the advertisement and not the landing page is being tested; you can come up with a table that looks something like this:
 
-| Ad # | Title | Description 1 | Description 2 |
-|------|-------|---------------|---------------|
-|    1 |     1 |             1 |             1 |
-|    2 |     1 |             1 |             2 |
-|    3 |     1 |             2 |             1 |
-|    4 |     1 |             2 |             2 |
-|    5 |     2 |             1 |             1 |
-|    6 |     2 |             1 |             2 |
-|    7 |     2 |             2 |             1 |
-|    8 |     2 |             2 |             2 |
-|------|-------|---------------|---------------|
+<table border=1 width=100% bordercolor="#e5e5e5" style="margin-top:20px;margin-bottom:20px;" width="100%" cellpadding="3" cellspacing="3">
+  <tbody>
+    <tr style="background-color:#f3f3f3;">
+      <th>Ad</th>
+      <th>Title</th>
+      <th>Description 1</th>
+      <th>Description 2</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
 
 Following exponential numbers, we just created 8 advertisements with 2 variations on each line. As the number of variations increase, the numbers go up, and this is where the testing comes in. As far as the testing goes, there are some important factors we need to keep in mind. These consist of:
 
