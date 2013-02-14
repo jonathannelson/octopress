@@ -14,9 +14,9 @@ Last week I entered search mode to find resources to spotlight [AdProof](http://
 
 The 3 places, in order of importance, you need to submit your startup to now:
 
-1.  [Beta List](http://betali.st "Beta List")
-2.  [Startup List](http://startupli.st "Startup List")
-3.  [Startup Plays](http://www.startupplays.com/ "Startup Plays")
+  * [Beta List](http://betali.st "Beta List")
+  * [Startup List](http://startupli.st "Startup List")
+  * [Startup Plays](http://www.startupplays.com/ "Startup Plays")
 
 ## Winner #1: Beta List
 
@@ -48,8 +48,8 @@ What did I learn here? Reach out to awesome startup bloggers, like [@Francov88](
 
 Protip: If you're not monitoring your brand terms with [Google Alerts](http://www.google.com/alerts "Google Alerts") and [IFTTT](https://ifttt.com "If This, Then That") (If This, Then That) then do that now. I'm currently monitoring my brand terms with Google Alerts using this query:
 
-* -site:adproof.com "adproof"
-* -site:adproof.com adproof
+  * -site:adproof.com "adproof"
+  * -site:adproof.com adproof
 
 Ive setup a recipe for each Google Alert, using the RSS feed, inside IFTTT to SMS me. Here's my recipe if you need: [AdProof IFTTT Google Alert Recipe](https://ifttt.com/myrecipes/personal/2774260/share "AdProof IFTTT"). Remember to update the title and change the URL to your own Google Alert RSS URL.
 
@@ -63,8 +63,8 @@ I gotta say, [Startup List](http://startupli.st/ "Startup List") has got their c
 
 I stumbled on a few other sites to submit your startup, but they're all stuck in 'pending'. I think these sites have potential, but are super duper slow in their moderation process.
 
-* [Inspired Beta](inspiredbeta.com "Inspired Beta") - Stuck in 'Your membership account has not been activated yet' hell.
-* [MoMB or The Museum of Modern Betas](momb.socio-kybernetics.net "Museum of Modern Betas") - This site appeared to be active during the time, but now I'm not thinking so much. I sent an email to the author, via the footer, but didn't get a response.
+  * [Inspired Beta](inspiredbeta.com "Inspired Beta") - Stuck in 'Your membership account has not been activated yet' hell.
+  * [MoMB or The Museum of Modern Betas](momb.socio-kybernetics.net "Museum of Modern Betas") - This site appeared to be active during the time, but now I'm not thinking so much. I sent an email to the author, via the footer, but didn't get a response.
 
 ## Don't Miss Next Post
 

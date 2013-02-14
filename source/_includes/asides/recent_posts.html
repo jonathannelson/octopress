@@ -1,5 +1,5 @@
+<h4 id="sidebar">Recent Posts</h4>
 <ul id="recent_posts" class="nav nav-list" style="padding-left: 0px; padding-right: 0px;">
-  <li class="nav-header">Recent Posts</li>
   {% for post in site.posts limit: site.recent_posts %}
     <li class="post">
       <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>

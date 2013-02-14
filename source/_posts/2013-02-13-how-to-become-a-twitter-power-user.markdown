@@ -22,11 +22,11 @@ Anyone can sign up for Twitter and start using it right out of the box, whether 
 
 Being a power user would give the user substantial advantages. These include:
 
-1. The number of people who follow you will increase at a steady rate. More followers mean a greater audience to get your message across. If you advertise your product’s website, the probability of users clicking on the link will grow higher by the day. This will lead to more clicks on the website and ultimately, increased web traffic.
+  * The number of people who follow you will increase at a steady rate. More followers mean a greater audience to get your message across. If you advertise your product’s website, the probability of users clicking on the link will grow higher by the day. This will lead to more clicks on the website and ultimately, increased web traffic.
 
-2. If your tweet seems appealing to the followers, they may tweet or re-tweet your words, increasing your range to a much, much wider circle of audience.
+  * If your tweet seems appealing to the followers, they may tweet or re-tweet your words, increasing your range to a much, much wider circle of audience.
 
-3. Twitter is nothing short of a hashtag universe. Tweeting right and tweeting good will make your hashtag more prominent among the rest.
+  * Twitter is nothing short of a hashtag universe. Tweeting right and tweeting good will make your hashtag more prominent among the rest.
 
 These advantages are not achievable via any other source. Other social networks, such as Facebook, are not nearly as good as Twitter when it comes to spreading breaking news, blog posts or even self-promoting hyperbole. Each platform has its own charm, but if you play your cards right, you will have success welcoming you soon enough.
 
@@ -34,14 +34,14 @@ These advantages are not achievable via any other source. Other social networks,
 
 Now, the best way to begin tweeting as a power user would be to keep a few important factors in mind. These include:
 
-1. The most important factor is that you should keep your tweets short, sweet and genuine. In cases like these, less is more.
+  * The most important factor is that you should keep your tweets short, sweet and genuine. In cases like these, less is more.
 
-2. You should consider re-tweeting your words, since there is a high chance that everyone may not have seen your post the first time.
+  * You should consider re-tweeting your words, since there is a high chance that everyone may not have seen your post the first time.
 
-3. Consider attending Tweetups. Tweetup consists of people with similar interest sitting together every month for a general meeting. This will not only make you more famous among your peers, but will also allow you to expand your knowledge at no additional cost. You get to kill two birds, no pun intended, with one stone!
+  * Consider attending Tweetups. Tweetup consists of people with similar interest sitting together every month for a general meeting. This will not only make you more famous among your peers, but will also allow you to expand your knowledge at no additional cost. You get to kill two birds, no pun intended, with one stone!
 
-4. You should spend some time in getting to know your audience. There’s practically no point in tweeting something which conflicts with your followers’ interests and likes. Knowing what your followers are interested in will make your job and your life much easier, as well as make your work far more efficient.
+  * You should spend some time in getting to know your audience. There’s practically no point in tweeting something which conflicts with your followers’ interests and likes. Knowing what your followers are interested in will make your job and your life much easier, as well as make your work far more efficient.
 
-5. Stick to a tweeting schedule. I personally recommend <a href="http://twitter.com/bufferapp">@Buffer</a> for scheduling and posting tweets. Spend some time in figuring out the right time and the right way to get your message across. However, when you are in a conference or a similar kind of event, start tweeting like crazy! This is the one time you get to cross your limits. This is a great tactic for networking at conferences and events.
+  * Stick to a tweeting schedule. I personally recommend <a href="http://twitter.com/bufferapp">@Buffer</a> for scheduling and posting tweets. Spend some time in figuring out the right time and the right way to get your message across. However, when you are in a conference or a similar kind of event, start tweeting like crazy! This is the one time you get to cross your limits. This is a great tactic for networking at conferences and events.
 
 Becoming an ideal Twitter power user is not something that an individual can achieve within days, it consumes times. Patience is literally the key to success in this case. Those who play it slow and steady are sure to become the winners. 

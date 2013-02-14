@@ -99,10 +99,10 @@ Assuming that only the advertisement and not the landing page is being tested; y
 
 Following exponential numbers, we just created 8 advertisements with 2 variations on each line. As the number of variations increase, the numbers go up, and this is where the testing comes in. As far as the testing goes, there are some important factors we need to keep in mind. These consist of:
 
-1. All variations must be tested simultaneously to reduce time-based factors that may result in biased results.
-2. Test one thing at a time, so you can tell what’s affecting the success of your advertisements.
-3. Let the numbers decide what’s right, not your instincts.
-4. Test your advertisements long enough. For example, depending upon the type of product the company has to offer, the advertisement may get less than 100 impressions a day, or 10,000 impressions a week. In any case, you must have a few thousand impressions to reach an unbiased conclusion. Also, any special events like holidays coming up should be taken into account, since these usually result in a different type of traffic.
+  * All variations must be tested simultaneously to reduce time-based factors that may result in biased results.
+  * Test one thing at a time, so you can tell what’s affecting the success of your advertisements.
+  * Let the numbers decide what’s right, not your instincts.
+  * Test your advertisements long enough. For example, depending upon the type of product the company has to offer, the advertisement may get less than 100 impressions a day, or 10,000 impressions a week. In any case, you must have a few thousand impressions to reach an unbiased conclusion. Also, any special events like holidays coming up should be taken into account, since these usually result in a different type of traffic.
 
 Keep in mind that advertisements and landing pages will be directly related to each other, and different advertisement and landing page combinations can lead to different conversion rates.
 
