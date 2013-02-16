@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Secrets to Creating Great Offers"
-description: Learn the secrets to creating great offers for your business.
+description: Learn how to create those catchy offers, then sit back and watch how fast are they converted into sales!
 cover: https://s3.amazonaws.com/adproof-images/VxbF4.png
 date: 2013-02-16 08:53
 comments: true
