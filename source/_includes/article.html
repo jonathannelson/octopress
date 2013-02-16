@@ -16,7 +16,7 @@
 {% if index %}
   <div class="entry-content">{{ content | excerpt }}</div>
   {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-  <div style="border-bottom: 1px solid #EEE; margin: 15px 0; padding: 15px 0 30px;">
+  <div style="margin: 30px 0 30px;">
   {% if excerpted == 'true' %}
     <footer>
       <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
