@@ -18,14 +18,14 @@ The product that is being represented deserves to be given proper promotion, bec
 
 ## 2. Research!
 
-If you want a perfect copy, you need to know how your target audience thinks; what they want, how they want, etc. needs to be understood so that you can meet their needs. Knowing your audience requires time – time spent on research. Without it, you’re just be taking chances and these chances can cost you.
+If you want perfect copy, you need to know how your target audience thinks; what they want, how they want, etc. needs to be understood so that you can meet their needs. Knowing your audience requires time – time spent on research. Without it, you’re just be taking chances and these chances can cost you.
 
 ## 3. Be Nice To Your Consumers
 
 Everybody likes being treated nicely. You not doing so would lead to pissed off or disappointed customers and anybody who’s mad or let down is bound to turn away from your product, or maybe even your whole business altogether. If they’re given respect, they’ll give respect to you in return, it’s as simple as that. The same attitude to be set in your copy – that the consumers are your equals or maybe even above you since you’re the one who wants them to buy.
 
 ## 4. Strong Headline Is Vital
-Headlines can work miracles; they’re one part of your copy that must be perfect. It should be attention seeking, interesting and promising. Some few tips to strong headlines are:
+Headlines can work miracles; they’re one part of your copy that must be perfect. It should be attention seeking, interesting and promising. A few tips for strong headlines are:
 
   * Use the headline templates that have gained a lot of response before.
   * Promise an attractive benefit to the readers, to keep their interest.
@@ -44,7 +44,7 @@ Your copy should always explain the product and at the same time explain why the
   * Why is the product for them? 
   * Why should they buy this specifically from you? 
   
-These are some examples of the ever present why’s in a consumer’s mind. To answer them all, you need to do one thing: make that copy informative.
+These are some examples of the ever present why’s in a consumer’s mind. To answer them all, you need to do one thing: make the copy informative.
 
 ## 7. Sales Copy Is Vital – Never Forget That
 
