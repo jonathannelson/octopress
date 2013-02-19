@@ -256,6 +256,11 @@ a:hover {
   min-height: 1px;
   margin-left: 20px;
 }
+.container-fluid {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
@@ -381,8 +386,8 @@ a:hover {
   *width: 74.41489361702126%;
 }
 .row-fluid .span8 {
-  width: 65.95744680851064%;
-  *width: 65.90425531914893%;
+  width: 69.95744680851064%;
+  *width: 69.90425531914893%;
 }
 .row-fluid .span7 {
   width: 57.44680851063829%;
@@ -397,8 +402,8 @@ a:hover {
   *width: 40.37234042553192%;
 }
 .row-fluid .span4 {
-  width: 31.914893617021278%;
-  *width: 31.861702127659576%;
+  width: 27.914893617021278%;
+  *width: 27.861702127659576%;
 }
 .row-fluid .span3 {
   width: 23.404255319148934%;
